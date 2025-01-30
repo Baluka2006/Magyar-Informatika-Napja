@@ -74,14 +74,16 @@
         <label for="email">E-mail cím: </label> <input type="email" id="email"> <br><br>
         <label for="tickets">Jegyek száma: </label> <input type="number" id="tickets"> <br><br>
 
-        <label for="egyeb" name="etelSzallas">Kér ételt és szállást?</label><br>
-        <input type="radio" name="mindketto" id="mindketto"> <label for="mindketto">Mindkettőt</label><br>
-        <input type="radio" name="kaja" id="kaja"> <label for="kaja">Csak ételt</label><br>
-        <input type="radio" name="szallas" id="szallas"> <label for="szallas">Csak szállást</label><br>
-        <input type="radio" name="semelyik" id="semelyik"> <label for="semelyik">Egyiket sem</label><br><br>
+        <label for="egyeb">Kér ételt és szállást?</label><br>
+        <input type="radio" name="etelSzallas" id="mindketto" value="mindketto"> <label for="mindketto">Mindkettőt</label><br>
+        <input type="radio" name="etelSzallas" id="kaja" value="kaja"> <label for="kaja">Csak ételt</label><br>
+        <input type="radio" name="etelSzallas" id="szallas" value="szallas"> <label for="szallas">Csak szállást</label><br>
+        <input type="radio" name="etelSzallas" id="semelyik" value="semelyik"> <label for="semelyik">Egyiket sem</label><br><br>
 
         <input type="button" value="Küldés" onclick="kuldes()">
     </form>
+
+    <section id="errorContainer"></section>
 
     <script src="scripts.js"></script>
 </body>
