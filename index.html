@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magyar Informatika Napja</title>
+    <link rel="stylesheet" href="stlye.css">
+    
+</head>
+<body>
+<<<<<<< HEAD
+    <h1>Magyar Informatika Napja</h1>
+=======
+    <nav>
+        <ul>
+            <li><a href="#tortenelmi-hatter">Történelmi háttér</a></li>
+            <li><a href="#m3-szamitogep">Az M-3 számítógép</a></li>
+            <li><a href="#jelentoseg">Jelentősége</a></li>
+            <li><a href="#esemenyek">Kapcsolódó események</a></li>
+            <li><a href="#alkotok">Megalkotói</a></li>
+            <li><a href="#konferencia">Konferencia</a></li>
+        </ul>
+    </nav>
+    
+    <section id="tortenelmi-hatter">
+        <h2>Történelmi háttér</h2>
+        <p>1959. január 21-én a magyar sajtó hírt adott az M-3 számítógép működéséről...</p>
+        <img src="kep/history.jpg" alt="Történelmi számítógép">
+    </section>
+    
+    <section id="m3-szamitogep">
+        <h2>Az M-3 számítógép</h2>
+        <p>Az M-3 a Neumann-architektúra alapján készült...</p>
+        <img src="kep/m3_computer.jpg" alt="M-3 számítógép">
+    </section>
+    
+    <section id="jelentoseg">
+        <h2>A Magyar Informatika Napjának jelentősége</h2>
+        <p>Emlékeztet a múlt eredményeire, tisztelgés az alkotók előtt...</p>
+        <img src="kep/importance.jpg" alt="Informatika ünnepe">
+    </section>
+    
+    <section id="esemenyek">
+        <h2>Kapcsolódó események</h2>
+        <ul>
+            <li>Tudományos előadások</li>
+            <li>Oktatási programok</li>
+            <li>Kitüntetések és elismerések</li>
+        </ul>
+        <img src="kep/event.jpg" alt="Kapcsolódó események">
+    </section>
+    
+    <section id="alkotok">
+        <h2>Az M-3 számítógép megalkotói</h2>
+        <p>Kalmár László, Varga József, Rátz László, Simonyi Károly...</p>
+        <img src="kep/creators.jpg" alt="Megalkotók képe">
+    </section>
+    
+    <section id="konferencia">
+        <h2>A konferencia programja</h2>
+        <ul>
+            <li>Megnyitó</li>
+            <li>Előadások</li>
+            <li>Workshopok</li>
+            <li>Panelbeszélgetések</li>
+            <li>Záróünnepség</li>
+        </ul>
+>>>>>>> 2f7765d8db2b7009dea23c91720a857b22603469
+
+
+    <h2>Jelentkezés az eseményre</h2>
+    <p>Kérjük, töltse ki az alábbi űrlapot a konferencián való részvételhez!</p>
+
+    <form action="" name="adatok">
+        <label for="name">Teljes név: </label> <input type="text" id="name"><br><br>
+        <label for="years">Életkor: </label> <input type="number" id="years"> <br><br>
+        <label for="email">E-mail cím: </label> <input type="email" id="email"> <br><br>
+        <label for="tickets">Jegyek száma: </label> <input type="number" id="tickets"> <br><br>
+
+        <label for="egyeb" name="etelSzallas">Kér ételt és szállást?</label><br>
+        <input type="radio" name="mindketto" id="mindketto"> <label for="mindketto">Mindkettőt</label><br>
+        <input type="radio" name="kaja" id="kaja"> <label for="kaja">Csak ételt</label><br>
+        <input type="radio" name="szallas" id="szallas"> <label for="szallas">Csak szállást</label><br>
+        <input type="radio" name="semelyik" id="semelyik"> <label for="semelyik">Egyiket sem</label><br><br>
+
+        <input type="button" value="Küldés" onclick="kuldes()">
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
